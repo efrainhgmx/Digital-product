@@ -166,6 +166,7 @@ h2 {
   background-color: var(--white-color);
   border-radius: 2px;
   padding: 5px;
+  margin-bottom: 20px;
   box-shadow: var(--box);
 }
 
@@ -174,7 +175,7 @@ h2 {
 }
 
 .img-mention img {
-  width: 340px;
+  width: inherit;
   height: 205px;
 }
 
@@ -212,6 +213,7 @@ h2 {
 
 /* ..........................................................FOOTER */
 footer {
+  margin-top: 25px;
   padding: var(--space);
   background-color: var(--black-color);
   color: white;

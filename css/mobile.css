@@ -1,3 +1,24 @@
+@media (max-width: 1200px) {
+  .img-mention img {
+    width: 225px;
+    height: 180px;
+  }
+}
+
+@media (max-width: 900px) {
+  .img-mention img {
+    width: 220px;
+    height: 160px;
+  }
+}
+
+@media (max-width: 800px) {
+  .img-mention img {
+    width: 130px;
+    height: 90px;
+  }
+}
+
 @media (max-width: 600px) {
   .products {
     display: inherit;
@@ -19,7 +40,8 @@
   }
 
   .sticker {
-    padding: 60px;
+    margin-top: 10px;
+    padding: 25px;
   }
 
   .mention {
@@ -27,6 +49,36 @@
   }
 
   .img-mention img {
-    width: 280px;
+    width: 22em;
+    height: 12em;
+  }
+}
+
+@media (max-width: 560px) {
+  .img-mention img {
+    width: 17em;
+    height: 8em;
+  }
+}
+
+@media (max-width: 480px) {
+  .img-mention img {
+    width: 10em;
+    height: 5em;
+  }
+  .modulo-pago-images img {
+    width: 120px;
+  }
+}
+
+@media (max-width: 360px) {
+  .img-mention img {
+    width: 7em;
+    height: 4em;
+  }
+
+  .modulo-pago-images img{
+    width: 75px;
+    height: 90px;
   }
 }
