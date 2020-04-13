@@ -63,15 +63,15 @@
 
 @media (max-width: 480px) {
   .img-mention img {
-    width: 10em;
-    height: 5em;
+    width: 14em;
+    height: 6em;
   }
   .modulo-pago-images img {
     width: 120px;
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 380px) {
   .img-mention img {
     width: 7em;
     height: 4em;
