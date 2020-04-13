@@ -64,14 +64,26 @@
 @media (max-width: 480px) {
   .img-mention img {
     width: 14em;
-    height: 6em;
+    height: 8em;
   }
   .modulo-pago-images img {
     width: 120px;
   }
 }
 
+@media (max-width: 400px) {
+  .img-mention img {
+    width: 12em;
+    height: 6em;
+  }
+}
 @media (max-width: 380px) {
+  .img-mention img {
+    width: 10em;
+    height: 6em;
+  }
+}
+@media (max-width: 340px) {
   .img-mention img {
     width: 7em;
     height: 4em;
