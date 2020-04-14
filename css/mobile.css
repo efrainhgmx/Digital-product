@@ -82,15 +82,14 @@
     width: 10em;
     height: 6em;
   }
+  .modulo-pago-images img{
+    width: 75px;
+    height: 90px;
+  }
 }
 @media (max-width: 340px) {
   .img-mention img {
     width: 7em;
     height: 4em;
-  }
-
-  .modulo-pago-images img{
-    width: 75px;
-    height: 90px;
   }
 }
